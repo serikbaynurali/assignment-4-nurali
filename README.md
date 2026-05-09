@@ -1,7 +1,7 @@
 ﻿# **Serikbay Nurali** 
- # 🚀 Assignment 4 – Graph Traversal and Representation System
+ #  Assignment 4 – Graph Traversal and Representation System
 
-## 📚 Course Information
+##  Course Information
 
 * **Course:** Data Structures and Algorithms
 * **Assignment:** Assignment 4 – Graph Traversal and Representation System
@@ -10,7 +10,7 @@
 
 ---
 
-# 📖 Project Overview
+#  Project Overview
 
 This project implements a complete graph traversal system using Java.
 
@@ -23,7 +23,7 @@ The system creates graphs of different sizes and analyzes traversal performance 
 
 ---
 
-# 🧩 Graph Structure
+#  Graph Structure
 
 A graph consists of:
 
@@ -40,7 +40,7 @@ Graphs are widely used in:
 
 ---
 
-# 📦 Project Structure
+#  Project Structure
 
 ```text
 assignment3-graphs/
@@ -83,7 +83,7 @@ Vertex v = new Vertex(1);
 
 ---
 
-## 🔹 Edge Class
+##  Edge Class
 
 Represents a connection between two vertices.
 
@@ -106,7 +106,7 @@ Edge edge = new Edge(v1, v2);
 
 ---
 
-## 🔹 Graph Class
+##  Graph Class
 
 Stores the graph using an adjacency list.
 
@@ -137,7 +137,7 @@ dfs(int start)
 
 ---
 
-## 🔹 Experiment Class
+##  Experiment Class
 
 Responsible for:
 
@@ -154,9 +154,9 @@ long end = System.nanoTime();
 
 ---
 
-# 🔍 Breadth-First Search (BFS)
+#  Breadth-First Search (BFS)
 
-## 📌 Description
+##  Description
 
 Breadth-First Search visits vertices level-by-level.
 
@@ -164,7 +164,7 @@ BFS explores all neighboring vertices before moving deeper into the graph.
 
 ---
 
-## ⚙️ BFS Algorithm Steps
+##  BFS Algorithm Steps
 
 1. Start from source vertex
 2. Mark vertex as visited
@@ -174,7 +174,7 @@ BFS explores all neighboring vertices before moving deeper into the graph.
 
 ---
 
-## 📈 BFS Time Complexity
+##  BFS Time Complexity
 
 ```text
 O(V + E)
@@ -187,7 +187,7 @@ Where:
 
 ---
 
-## ✅ BFS Use Cases
+##  BFS Use Cases
 
 * Shortest path search
 * GPS systems
@@ -196,9 +196,9 @@ Where:
 
 ---
 
-# 🔍 Depth-First Search (DFS)
+#  Depth-First Search (DFS)
 
-## 📌 Description
+##  Description
 
 Depth-First Search explores deeply before backtracking.
 
@@ -206,7 +206,7 @@ DFS uses recursion or stack-based traversal.
 
 ---
 
-## ⚙️ DFS Algorithm Steps
+##  DFS Algorithm Steps
 
 1. Start from source node
 2. Mark node as visited
@@ -216,7 +216,7 @@ DFS uses recursion or stack-based traversal.
 
 ---
 
-## 📈 DFS Time Complexity
+##  DFS Time Complexity
 
 ```text
 O(V + E)
@@ -229,7 +229,7 @@ Where:
 
 ---
 
-## ✅ DFS Use Cases
+##  DFS Use Cases
 
 * Cycle detection
 * Maze solving
@@ -238,9 +238,9 @@ Where:
 
 ---
 
-# 🧪 Experimental Results
+#  Experimental Results
 
-## 📊 Execution Time Comparison
+##  Execution Time Comparison
 
 | Graph Size   | BFS Time (ns) | DFS Time (ns) |
 | ------------ | ------------- | ------------- |
@@ -250,7 +250,7 @@ Where:
 
 ---
 
-# 📌 Observations
+#  Observations
 
 * Traversal time increased as graph size increased.
 * DFS performed slightly faster in the experiments.
@@ -263,7 +263,7 @@ O(V + E)
 
 ---
 
-# ❓ Analysis Questions
+#  Analysis Questions
 
 ## 1️⃣ How does graph size affect BFS and DFS performance?
 
